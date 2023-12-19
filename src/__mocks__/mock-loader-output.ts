@@ -1,9 +1,11 @@
+import postcss from 'postcss';
+
 export default {
-  loader: require.resolve('postcss-loader'),
+  loader: 'postcss-loader',
   options: {
     postcssOptions: () => ({
       config: false,
-      implementation: require('postcss'),
+      implementation: postcss,
       plugins: [
         [
           '@fullhuman/postcss-purgecss',

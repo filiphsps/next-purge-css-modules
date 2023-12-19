@@ -1,4 +1,5 @@
 import createGlobPathArray from '@src/lib/createGlobPathArray';
+import postcss from 'postcss';
 import type { PurgeConfig } from '@types';
 
 export default function createLoader(purgeConfig: PurgeConfig) {
@@ -6,11 +7,11 @@ export default function createLoader(purgeConfig: PurgeConfig) {
   const contentArray = Array.isArray(content) ? content : [content];
 
   return {
-    loader: require.resolve('postcss-loader'),
+    loader: 'postcss-loader',
     options: {
       postcssOptions: () => ({
         config: false,
-        implementation: require('postcss'),
+        implementation: postcss,
         plugins: [
           [
             '@fullhuman/postcss-purgecss',

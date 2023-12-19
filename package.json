@@ -1,7 +1,7 @@
 {
-  "name": "next-purge-css-modules",
+  "name": "@filiphsandstrom/next-purge-css-modules",
   "type": "module",
-  "version": "2.0.1",
+  "version": "0.0.0-unstable.1",
   "description": "Easily remove unused css-module code in your Next.js application",
   "author": "Liam Howell <liam@liam.codes>",
   "homepage": "https://github.com/eels/next-purge-css-modules#readme",
@@ -57,7 +57,7 @@
     "webpack": "^5.0.0"
   },
   "peerDependencies": {
-    "next": ">=12.0.0"
+    "next": ">=14.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.18.6",
@@ -89,10 +89,10 @@
     "jest-environment-jsdom": "29.5.0",
     "lint-staged": "13.0.3",
     "microbundle": "0.15.0",
-    "next": "12.0.8",
+    "next": "14.0.4",
     "prettier": "2.7.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "rimraf": "3.0.2",
     "typescript": "4.7.4"
   }

@@ -20,12 +20,6 @@
 ehthumbs.db
 Thumbs.db
 
-# Lock files
-# ----------------------------------------
-
-package-lock.json
-yarn.lock
-
 # Dependencies
 # ----------------------------------------
 
